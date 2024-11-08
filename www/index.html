@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Halaman Profile Klungkung</title>
+
+    <link rel="stylesheet" href="assets/styles/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul class="brand">
+          <li>
+            <a href="/">Klungkung Tourism</a>
+          </li>
+        </ul>
+
+        <ul class="right-nav">
+          <li class="dropdown">
+            <a href="#wisata" class="dropbtn">Wisata</a>
+            <div class="dropdown-content">
+              <a href="#kertha-gosa">Kertha Gosa</a>
+              <a href="#monumen-klungkung">Monumen Klungkung</a>
+            </div>
+          </li>
+          <li><a href="#sejarah">Sejarah</a></li>
+          <li><a href="#geografis">Geografis</a></li>
+        </ul>
+
+        <div id="mySidebar" class="sidebar">
+          <a href="#wisata">Wisata</a>
+          <a href="#sejarah">Sejarah</a>
+          <a href="#geografis">Geografis</a>
+        </div>
+
+        <span class="dropdown-toggle" onclick="toggleSidebar()">&#9776;</span>
+      </nav>
+    </header>
+
+    <main>
+      <div class="text-animation">
+        <h1 id="text-animation"></h1>
+      </div>
+
+      <div class="slider">
+        <div class="slideshow-container" id="slideshow-container">
+          <div class="mySlides">
+            <img src="assets/image/kertha_gosa.jpg" />
+            <div class="caption-slider">Kertha Gosa</div>
+          </div>
+
+          <div class="mySlides">
+            <img src="assets/image/monumen_klungkung.jpg" />
+            <div class="caption-slider">Monumen Klungkung</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="container-information">
+        <div class="information">
+          <div class="g-card">
+            <h2>POPULASI</h2>
+            <p>222.763 JIWA</p>
+          </div>
+          <div class="g-card">
+            <h2>JUMLAH KECAMATAN</h2>
+            <p>4</p>
+          </div>
+          <div class="g-card">
+            <h2>LUAS</h2>
+            <p>315 km<sup>2</sup></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <article id="sejarah" class="card">
+          <h2>Sejarah</h2>
+          <img
+            src="assets/image/history.jpg"
+            alt="sejarah"
+            class="featured-image"
+          />
+          <p>
+            Pada masa kerajaan, Klungkung menjadi pusat pemerintahan raja-raja
+            Bali. Ida I Dewa Agung Jambe adalah Pendiri Kerajaan Klungkung tahun
+            1686 dan merupakan penerus Dinasti Gelgel. Pada waktu itu, Kerajaan
+            Gelgel merupakan pusat kerajaan di Bali dan masa keemasan kerajaan
+            ini tercipta pada masa pemerintahan Dalem Waturenggong. Raja
+            Klungkung adalah pewaris langsung dan keturunan dari Dinasti Kresna
+            Kepakisan. Karenanya, sejarah Klungkung berhubungan erat dengan
+            raja-raja yang memerintah di Samprangan dan Gelgel.
+          </p>
+        </article>
+
+        <article id="geografis" class="card">
+          <h2>Geografis</h2>
+          <img
+            src="assets/image/geografis.jpg"
+            alt="geografis"
+            class="featured-image"
+          />
+          <p>
+            Kabupaten Klungkung merupakan kabupaten yang luasnya terkecil kedua
+            setelah Kota Denpasar dari 9 (sembilan) kabupaten dan kota yang
+            berada di Bali yakni dengan luas wilayah sebesar 315 km². Secara
+            astronomis, Kabupaten Klungkung terletak di antara 115°21'28" BT –
+            115°37'43" BT dan 8°27'37" LS – 8°49'00" LS. Kabupaten Klungkung
+            terdiri dari beberapa pulau, yakni sebagian berada di Pulau Bali
+            (Kecamatan Banjarangkan, Kecamatan Klungkung, dan Kecamatan Dawan),
+            sedangkan Kecamatan Nusa Penida terpisah dari Pulau Bali dengan tiga
+            pulau terbesar yaitu Pulau Nusa Penida, Pulau Nusa Lembongan, dan
+            Pulau Nusa Ceningan. Kabupaten Klungkung terbagi atas empat
+            kecamatan dengan kecamatan terbesarnya adalah Kecamatan Nusa Penida
+            dengan luas wilayah 202,84 km² dan kecamatan terkecilnya adalah
+            Kecamatan Klungkung dengan luas wilayah 29,05 km².
+          </p>
+
+          <p>
+            Secara topografis, wilayah Kabupaten Klungkung memiliki ketinggian
+            muka tanah yang beragam. Berdasarkan ketinggiannya, wilayah
+            Kabupaten Klungkung didominasi oleh wilayah perbukitan dengan
+            ketinggian antara 100-500 mdpl yang luas wilayahnya sebesar 227,48
+            km² atau 72,22% dari total luas wilayah Kabupaten Klungkung,
+            kemudian disusul oleh dataran rendah dengan ketinggian antara 0-100
+            mdpl yang luas wilayahnya adalah 86,27 km² atau 27,38% dari total
+            luas wilayah Kabupaten Klungkung, dan terakhir diikuti oleh dataran
+            tinggi dengan ketinggian lebih dari 500 mdpl yang luasnya hanya 1,25
+            km² atau 0,4% dari total luas wilayah Kabupaten Klungkung.
+          </p>
+        </article>
+
+        <article id="wisata" class="card">
+          <h2>Wisata</h2>
+          <p>
+            Sejak berkembangnya infrastruktur pariwisata, Kabupaten Klungkung
+            telah menjadi tujuan utama wisata di Bali, terutama bagi wisatawan
+            yang tertarik dengan sejarah dan budaya. Selain dikenal dengan
+            keindahan alamnya, Klungkung juga menawarkan berbagai situs
+            bersejarah, seperti Kertha Gosa dan Monumen Klungkung, yang
+            mencerminkan warisan budaya Bali yang kaya. Wisatawan dapat
+            menikmati perpaduan antara keindahan alam pesisir dan kekayaan
+            budaya lokal yang masih terjaga dengan baik.
+          </p>
+
+          <section id="kertha-gosa">
+            <h3>Kertha Gosa</h3>
+            <img
+              src="assets/image/kertha_gosa.jpg"
+              alt="Kertha Gosa"
+              class="featured-image"
+            />
+            <p>
+              Kerta Gosa merupakan komplek bangunan atau balai pengadilan
+              warisan Keraton Semarapura (1686-1908) dan tetap difungsikan pada
+              masa kekuasaan kolonial Belanda (1908-1942). Di Komplek ini
+              setidaknya masih tersisa tiga objek penoinggalan Keraton
+              Semarapura yaitu Bale Kerta Gosa, Bale Kambang dengan kolam Taman
+              Gili, serta Gapura Keraton. Selain itu, di sisi bagian barat
+              terdapat bangunan Museum Semarapura bergaya arsitektur Eropah
+              (Balisering) yang sebelumnya merupakan bekas sekolah belanda.
+            </p>
+          </section>
+
+          <section id="monumen-klungkung">
+            <h3>Monumen Klungkung</h3>
+            <img
+              src="assets/image/monumen_klungkung.jpg"
+              alt="Monumen Klungkung"
+              class="featured-image"
+            />
+            <p>
+              Monumen Puputan Klungkung adalah sebuah taman kota yang dilengkapi
+              dengan monumen tugu prasasti dan terletak di jantung Kota
+              Semarapura - Kabupaten Klungkung. Monumen ini adalah symbol dari
+              perjuangan rakyat kerajaan Klungkung dalam melawan bangsa penjajah
+              yang mencoba menguasai wilayah mereka. Monumen Puputan Klungkung
+              berada di tengah kota Semarapura atau tepatnya di jalan Untung
+              Surapati - Klungkung. Lokasi ini merupakan posisi yang sangat
+              strategis karena terletak tepat di tengah keramaian kota, pusat
+              pertokoan di Kabupaten Klungkung, pasar tradisional, kantor
+              pemerintahan Klungkung dan terletak berdampingan dengan objek
+              wisata yang berupa bangunan dengan arsitektur kuno peninggalan
+              sejarah, Kertha Gosa. Mengingat wilayahnya yang tidak begitu luas,
+              kita hanya perlu berkendara sekitar kurang dari 10 menit untuk
+              mencapai pusat kota Semarapura (ibukota Klungkung).
+            </p>
+          </section>
+        </article>
+      </div>
+
+      <aside>
+        <article class="profile card">
+          <header>
+            <h2>Kabupaten Klungkung</h2>
+            <figure>
+              <img src="assets/image/Logo-klungkung.png" />
+              <figcaption>Logo Kabupaten Klungkung</figcaption>
+            </figure>
+          </header>
+
+          <section>
+            <h3>Informasi Lainnya</h3>
+
+            <table>
+              <tr>
+                <th>Negara</th>
+                <td>Indonesia</td>
+              </tr>
+              <tr>
+                <th>Tanggal Berdiri</th>
+                <td>14 Agustus 1958</td>
+              </tr>
+              <tr>
+                <th>Luas Total</th>
+                <td>315 km<sup>2</sup></td>
+              </tr>
+              <tr>
+                <th>Kode Pos</th>
+                <td>80711-80716</td>
+              </tr>
+            </table>
+          </section>
+        </article>
+      </aside>
+    </main>
+    <footer>
+      <p>Created by Teja Baskara</p>
+      <p>&copy; 2021 Klungkung Tourism</p>
+    </footer>
+  </body>
+
+  <script src="script.js"></script>
+</html>
